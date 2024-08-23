@@ -1,4 +1,4 @@
-#**User Guide Repository Query System (private repository) with LLM**
+#User Guide Repository Query System (private repository) with LLM
 
 Our project, the User Guide Repository Query System, enhances the
 capabilities of a pre-trained large language model (LLM) by integrating
@@ -49,7 +49,7 @@ Open Source Technologies Used:
 
 -   NLTK: Used for tokenizing sentences.
 
-**Contents:**
+##Contents:
 
 -   guides: A private dataset directory containing different User
     Guides.
@@ -59,11 +59,11 @@ Open Source Technologies Used:
 
 -   app-guide-reference.py: Main code file.
 
-#**Data Collection and Preprocessing:**
+##Data Collection and Preprocessing:
 
 ![](./image2.png)
 
-**[FAISS Index Creation:]**
+###<ins>[FAISS Index Creation:]</ins>
 
 Converts textual data into numerical representations (embeddings) that
 capture semantic meaning.
@@ -88,7 +88,7 @@ Process:
 -   Add Embeddings: Insert embeddings into the index for efficient
     search.
 
-**[Extracting Relevant Sections:]**
+###<ins>[Extracting Relevant Sections:]</ins>
 
 Identify and extract the most relevant sentences from the user guide
 text that directly addresses the user query.
@@ -107,7 +107,7 @@ Process:
 -   Top-K Selection: Identify and extract the top-K most relevant
     sentences based on similarity scores, we used PyTorch.
 
-**[Reading PDF Text:]**
+###<ins>[Reading PDF Text:]</ins>
 
 Extracts textual content from user guide PDF files, making it accessible
 for processing and analysis.
@@ -124,17 +124,17 @@ Process:
 -   Text Aggregation: Combine the extracted text into a single
     continuous text block.
 
-#**Setup and Installation:**
+##Setup and Installation:
 
 Python 3.6 or greater.
 
 The following libraries should be installed:
 
-pip install streamlit pandas torch sentence-transformers faiss-cpu numpy
-transformers PyPDF2 nltk
+<span style="color: red;">pip install streamlit pandas torch sentence-transformers faiss-cpu numpy
+transformers PyPDF2 nltk </span>
 
-#**Usage:**
+##Usage:
 
 Execute the script (a virtual environment is recommended):
 
-streamlit run app-guide-reference.py
+<span style="color: red;">streamlit run app-guide-reference.py</span>

@@ -1,4 +1,4 @@
-#User Guide Repository Query System (private repository) with LLM
+<span style="font-size:3em;">User Guide Repository Query System (private repository) with LLM</span>
 
 Our project, the User Guide Repository Query System, enhances the
 capabilities of a pre-trained large language model (LLM) by integrating
@@ -63,7 +63,7 @@ Open Source Technologies Used:
 
 ![](./image2.png)
 
-###<ins>[FAISS Index Creation:]</ins>
+###<ins>FAISS Index Creation:</ins>
 
 Converts textual data into numerical representations (embeddings) that
 capture semantic meaning.
@@ -88,7 +88,7 @@ Process:
 -   Add Embeddings: Insert embeddings into the index for efficient
     search.
 
-###<ins>[Extracting Relevant Sections:]</ins>
+###<ins>Extracting Relevant Sections:</ins>
 
 Identify and extract the most relevant sentences from the user guide
 text that directly addresses the user query.
@@ -107,7 +107,7 @@ Process:
 -   Top-K Selection: Identify and extract the top-K most relevant
     sentences based on similarity scores, we used PyTorch.
 
-###<ins>[Reading PDF Text:]</ins>
+###<ins>Reading PDF Text:</ins>
 
 Extracts textual content from user guide PDF files, making it accessible
 for processing and analysis.

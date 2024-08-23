@@ -1,6 +1,6 @@
 id,title,description,text,pdf_path
-1,casio_user-manual-28709,Casio Operation Guide TQ-378,This guide explains how to operate your Casio TQ-378 clock.,/home/gpabon/VISMA/LLM/guides/casio_user-manual-28709.pdf
-2,fusion-gs-70-en,Getting Started with VMware Fusion for Mac OS X,This guide explains how to get started to use and operate VMware Fusion.,/home/gpabon/VISMA/LLM/guides/fusion-gs-70-en.pdf
-3,helm-4.2.2-qi,Parallels Helm 4.2.2 Quick Installation Guide,Learn how to quick install Parallels Helm 4.2.2.,/home/gpabon/VISMA/LLM/guides/helm-4.2.2-qi.pdf
-4,Pexip_Infinity_Installation_Checklist_v34.a,Peexip Infinity Installation checklist,This guide provides a checklist of all elements to Install Pexip Infinity.,/home/gpabon/VISMA/LLM/guides/Pexip_Infinity_Installation_Checklist_v34.a.pdf
+1,casio_user-manual-28709,Casio Operation Guide TQ-378,This guide explains how to operate your Casio TQ-378 clock.,~/guides/casio_user-manual-28709.pdf
+2,fusion-gs-70-en,Getting Started with VMware Fusion for Mac OS X,This guide explains how to get started to use and operate VMware Fusion.,~/guides/fusion-gs-70-en.pdf
+3,helm-4.2.2-qi,Parallels Helm 4.2.2 Quick Installation Guide,Learn how to quick install Parallels Helm 4.2.2.,~/guides/helm-4.2.2-qi.pdf
+4,Pexip_Infinity_Installation_Checklist_v34.a,Peexip Infinity Installation checklist,This guide provides a checklist of all elements to Install Pexip Infinity.,~/guides/Pexip_Infinity_Installation_Checklist_v34.a.pdf
 

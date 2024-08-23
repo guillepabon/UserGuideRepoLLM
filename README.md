@@ -1,4 +1,4 @@
-**User Guide Repository Query System (private repository) with LLM**
+#**User Guide Repository Query System (private repository) with LLM**
 
 Our project, the User Guide Repository Query System, enhances the
 capabilities of a pre-trained large language model (LLM) by integrating
@@ -6,8 +6,7 @@ it with a private dataset. This system processes user queries, retrieves
 relevant information from user guides, and generates coherent,
 contextually accurate responses.
 
-![](./image1.png){width="5.32410542432196in"
-height="2.833834208223972in"}
+![](./image1.png)
 
 Designed with different functions to ease:
 
@@ -60,12 +59,11 @@ Open Source Technologies Used:
 
 -   app-guide-reference.py: Main code file.
 
-**Data Collection and Preprocessing:**
+#**Data Collection and Preprocessing:**
 
-![](./image2.png){width="6.036367016622922in"
-height="3.40964457567804in"}
+![](./image2.png)
 
-**[FAISS Index Creation:]{.underline}**
+**[FAISS Index Creation:]**
 
 Converts textual data into numerical representations (embeddings) that
 capture semantic meaning.
@@ -90,7 +88,7 @@ Process:
 -   Add Embeddings: Insert embeddings into the index for efficient
     search.
 
-**[Extracting Relevant Sections:]{.underline}**
+**[Extracting Relevant Sections:]**
 
 Identify and extract the most relevant sentences from the user guide
 text that directly addresses the user query.
@@ -109,7 +107,7 @@ Process:
 -   Top-K Selection: Identify and extract the top-K most relevant
     sentences based on similarity scores, we used PyTorch.
 
-**[Reading PDF Text:]{.underline}**
+**[Reading PDF Text:]**
 
 Extracts textual content from user guide PDF files, making it accessible
 for processing and analysis.
@@ -126,7 +124,7 @@ Process:
 -   Text Aggregation: Combine the extracted text into a single
     continuous text block.
 
-**Setup and Installation:**
+#**Setup and Installation:**
 
 Python 3.6 or greater.
 
@@ -135,7 +133,7 @@ The following libraries should be installed:
 pip install streamlit pandas torch sentence-transformers faiss-cpu numpy
 transformers PyPDF2 nltk
 
-**Usage:**
+#**Usage:**
 
 Execute the script (a virtual environment is recommended):
 
